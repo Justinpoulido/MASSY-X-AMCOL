@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+  <link rel="icon" type="image/webp" href="assets/optimized/amcol-mark.webp">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="node_modules/lenis/dist/lenis.css">
   <script type="importmap">
@@ -403,8 +404,9 @@
 <body>
   <header>
     <div class="bar header-with-collaboration">
-      <a class="header-collaboration" href="#overview" data-goto="overview" aria-label="AMCOL and Massy collaboration home">
-        <img src="assets/collaboration/amcol-x-massy-transparent.png" alt="AMCOL in collaboration with Massy">
+      <a class="header-collaboration header-brand-lockup" href="#overview" data-goto="overview" aria-label="Massy Wood and AMCOL collaboration home">
+        <img class="header-brand-massy" src="assets/collaboration/massy-wood-header-transparent.png" alt="Massy Wood">
+        <img class="header-brand-amcol" src="assets/collaboration/amcol-header-transparent.png" alt="AMCOL Americas Marketing Company Limited">
       </a>
       <nav id="nav" aria-label="Main navigation">
         <button class="navlink active" data-view="overview">Overview</button>
@@ -419,21 +421,21 @@
         <button class="navlink" data-view="green-energy">Energy Transition</button>
       </nav>
       <span class="barspacer"></span>
-      <button class="status status-button" data-goto="roadmap" data-scroll-target="contact"><i></i>Partnership proposal <b>&rarr;</b></button>
+      <button class="status status-button" data-goto="roadmap" data-scroll-target="contact">Partnership proposal <i class="ph ph-arrow-right" aria-hidden="true"></i></button>
     </div>
   </header>
 
   <main>
     <section class="view active" id="v-overview" data-section="overview">
-      <div class="chapter-break"><span>01</span><h2>Overview</h2><i></i><small>AMCOL × Massy Wood</small></div>
+      <div class="chapter-break overview-chapter"><span>01</span><h2>Overview</h2><i></i><small>AMCOL × Massy Wood</small></div>
       <div class="hero">
         <div class="hero-copy">
           <div class="eyebrow"><span class="s-index">S.01</span>Massy Wood &times; AMCOL <span>Industrial partnership</span></div>
           <h1>More work-fronts.<br><em>One industrial partner.</em></h1>
           <p>AMCOL combines a deep industrial catalogue with practical field services so Massy Wood can source the products, support and response capacity its crews need through every scope.</p>
           <div class="hero-actions">
-            <button class="btn primary" data-goto="products">Explore the range <b>&rarr;</b></button>
-            <button class="btn secondary" data-goto="partnership">See the partnership model</button>
+            <button class="btn primary" data-goto="products">Explore the catalogue <b>&rarr;</b></button>
+            <button class="btn secondary" data-goto="partnership">Partnership proposal <i class="ph ph-arrow-right" aria-hidden="true"></i></button>
           </div>
           <div class="hero-note"><span class="pulse-dot"></span>Prepared for Massy Wood &middot; 2026 catalogue-led proposal</div>
         </div>
@@ -449,16 +451,22 @@
         </div>
       </div>
 
-      <div class="proof-strip">
-        <div><b data-count="5">0</b><span>core product families</span></div>
-        <div><b data-count="24">0</b><span>industrial supply brands</span></div>
-        <div><b data-count="8">0</b><span>value-added service lines</span></div>
-        <div><b>T&amp;T</b><span>local response, regional reach</span></div>
+      <div class="proof-strip" aria-label="AMCOL partnership highlights">
+        <div><span class="proof-icon" aria-hidden="true"><i class="ph ph-package"></i></span><span class="proof-copy"><b data-count="5">0</b><span>core product families</span></span></div>
+        <div><span class="proof-icon" aria-hidden="true"><i class="ph ph-tag"></i></span><span class="proof-copy"><b data-count="24">0</b><span>industrial supply brands</span></span></div>
+        <div><span class="proof-icon" aria-hidden="true"><i class="ph ph-wrench"></i></span><span class="proof-copy"><b data-count="8">0</b><span>value-added service lines</span></span></div>
+        <div><span class="proof-icon" aria-hidden="true"><i class="ph ph-globe-hemisphere-west"></i></span><span class="proof-copy"><b>T&amp;T</b><span>local response, regional reach</span></span></div>
       </div>
 
-      <div class="section-intro split-intro">
-        <div><div class="eyebrow"><span class="s-index">S.01</span>The AMCOL advantage</div><h2>Supply that understands the job.</h2></div>
+      <div class="section-intro split-intro hero-advantage">
+        <div><div class="eyebrow"><span class="s-index">S.02</span>The AMCOL advantage</div><h2>Supply that understands the job.</h2></div>
         <p>For Massy Wood, the value is not a longer vendor list. It is an integrated relationship that connects certified products, field-ready stock and industrial service capacity around the work already underway.</p>
+        <div class="advantage-points" aria-label="AMCOL advantages">
+          <div><i class="ph ph-shield-check" aria-hidden="true"></i><span>Certified<br>Products</span></div>
+          <div><i class="ph ph-package" aria-hidden="true"></i><span>Field-Ready<br>Availability</span></div>
+          <div><i class="ph ph-clock" aria-hidden="true"></i><span>Responsive<br>Service</span></div>
+          <div><i class="ph ph-users-three" aria-hidden="true"></i><span>One Partner,<br>Every Scope</span></div>
+        </div>
       </div>
       <div class="benefit-grid">
         <article class="benefit"><span class="benefit-no">01</span><h3>One accountable source</h3><p>Consolidate valves, tube fittings, PPE, pipe repair and specialist tools through one responsive industrial partner.</p></article>
